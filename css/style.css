@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(146, 45, 67);
+}
+
+h1 {
+    color: thistle;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 3px solid dark;
+    background-color: rgb(241, 0, 0);
+    color: black;
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#cont {
+    display: flex;
+    
+}
+
+#RESULT {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 25pt;
+    color:snow;
+}
